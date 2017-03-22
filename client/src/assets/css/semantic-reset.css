@@ -1,0 +1,7 @@
+.ui.container {
+  width: 1200px;
+}
+
+.ui.menu:not(.secondary):not(.text):not(.tabular):not(.borderless)>.container>.item:not(.right):not(.borderless):first-child {
+	border-left: 0 !important;
+}

@@ -1,0 +1,19 @@
+#uxi-icon-edit .ui.segment {
+  padding: 30px;
+}
+
+#uxi-icon-edit .img-container {
+  text-align: center;
+}
+
+#uxi-icon-edit .img-container .img-container-wrapper {
+  height: 256px;
+  width: 256px;
+  background: #eee;
+  margin: auto;
+  padding-top: 64px;
+}
+
+#uxi-icon-edit .img-container .img-container-wrapper img {
+  height: 128px;width: 128px;
+}
