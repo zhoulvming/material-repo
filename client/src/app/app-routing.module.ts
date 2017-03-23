@@ -7,12 +7,16 @@ import { Routes, RouterModule }   from '@angular/router'
 import { HomePage } from './pages/home'
 import { NoContentPage } from './pages/no-content'
 import { IconEditPage } from './pages/icon.edit'
+import { ComponentNewPage } from './pages/component.new'
 
 const routes: Routes = [
 	{ path: '', component: HomePage }
-	,{ path: 'home', component: HomePage}
+	,{ path: 'home', component: HomePage }
 
-	,{ path: 'icon/edit/:id', component: IconEditPage}
+	,{ path: 'icon/edit/:id', component: IconEditPage }
+	,{ path: 'comp/new', component: ComponentNewPage }
+
+
 	// { path: 'upload/code', component: componentNewPage},
   // { path: 'all/icon', component: iconAllPage},
 	// { path: 'edit/icon', component: iconEditPage},

@@ -14,6 +14,7 @@ import { AppState, InteralStateType, Global } from './shared/services/app.servic
 import { NoContentPage } from './pages/no-content'
 import { HomePage } from './pages/home'
 import { IconEditPage } from './pages/icon.edit'
+import { ComponentNewPage } from './pages/component.new'
 
 // Application wide providers
 const APP_PROVIDERS = [
@@ -25,7 +26,8 @@ const APP_PROVIDERS = [
     AppComponent,
     NoContentPage,
     HomePage,
-    IconEditPage
+    IconEditPage,
+    ComponentNewPage
   ],
   imports: [
     BrowserModule,
